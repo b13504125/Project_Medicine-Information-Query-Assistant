@@ -89,13 +89,13 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 (1) 發現利用PubChem提供的API只能查詢IUPAC name和molar mass
 
-   改成利用維基百科的API搜尋(失敗)
+      改成利用維基百科的API搜尋(失敗)
     
-   改成利用網頁搜尋PubChem(失敗)
+      改成利用網頁搜尋PubChem(失敗)
    
-   改成利用網頁搜尋維基百科(成功)
+      改成利用網頁搜尋維基百科(成功)
    
-   修改chatGPT提供的網頁搜尋程式
+      修改chatGPT提供的網頁搜尋程式
    
 (2) 寫好利用forloop將性質存入csv檔的程式
    
@@ -103,13 +103,13 @@ pip install openpyxl beautifulsoup4 requests pandas
    
 (1) 發現℃可在vscode預覽中顯示，但在csv檔中顯示亂碼
    
-   詢問chatGPT後得知csv無法處理特殊字元，但xlsx可以
+      詢問chatGPT後得知csv無法處理特殊字元，但xlsx可以
    
-   改成讀入及存檔成xlsx檔
+      改成讀入及存檔成xlsx檔
    
 (2) 從維基百科搜尋到的資料後面會出現[]的標記
    
-   使用chatGPT提供的程式
+      使用chatGPT提供的程式
    
 (3) 寫好使用者介面(輸入查詢性質)的程式
    
