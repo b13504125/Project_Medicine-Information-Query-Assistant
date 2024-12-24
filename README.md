@@ -44,8 +44,11 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 藥品性質查詢組合
 1(solubility):  IUPAC name + molar mass + solubility in water + appearance
+
 2(m.p./b.p.):   IUPAC name + molar mass + m.p. + b.p. + appearance
+
 3(1+2): IUPAC name + molar mass + solubility in water + + m.p. + b.p. + appearance
+
 4(customized)
 輸入1234以選擇你想查詢的藥品性質：**4**
 請以小寫輸入想查詢的化合物性質，每行一個性質，輸入 'end' 結束：
