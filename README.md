@@ -115,9 +115,6 @@ pip install openpyxl beautifulsoup4 requests pandas
 3. 組合程式、測試:
 
     12/23
-   
-    (1) 組合程式
-   
 
 4. 優化程式:
 
