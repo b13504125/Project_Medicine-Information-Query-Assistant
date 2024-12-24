@@ -103,13 +103,13 @@ pip install openpyxl beautifulsoup4 requests pandas
    
 (1) 發現℃可在vscode預覽中顯示，但在csv檔中顯示亂碼
    
-        詢問chatGPT後得知csv無法處理特殊字元，但xlsx可以
+   詢問chatGPT後得知csv無法處理特殊字元，但xlsx可以
    
-        改成讀入及存檔成xlsx檔
+   改成讀入及存檔成xlsx檔
    
 (2) 從維基百科搜尋到的資料後面會出現[]的標記
    
-        使用chatGPT提供的程式
+   使用chatGPT提供的程式
    
 (3) 寫好使用者介面(輸入查詢性質)的程式
    
