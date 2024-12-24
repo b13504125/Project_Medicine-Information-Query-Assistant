@@ -72,7 +72,9 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 ## (3) 程式的架構
 
-再此附上簡單易的流程圖
+在此附上簡單易的流程圖
+
+![image](simpleflowchart.jpg)
 
 註：程式檔案中，程式碼後有附註。
 
