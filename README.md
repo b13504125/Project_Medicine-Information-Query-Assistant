@@ -76,10 +76,10 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 ## (4) 開發過程
 
-1. 主題發想：
+### 1. 主題發想：
     12/5之前：詢問chatGPT是否能夠利用PubChem提供的API查詢化合物性質
 
-2. 分段撰寫程式與問題解決:
+### 2. 分段撰寫程式與問題解決:
    
     12/5之前：寫好存檔程式
    
@@ -112,11 +112,11 @@ pip install openpyxl beautifulsoup4 requests pandas
     (3) 寫好使用者介面(輸入查詢性質)的程式
    
 
-3. 組合程式、測試:
+### 3. 組合程式、測試:
 
     12/23
 
-4. 優化程式:
+### 4. 優化程式:
 
     12/23
    
@@ -132,27 +132,27 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 ## (6) 修改自chatgpt的部分
 
-1. scrape_property(chemical_name, property)
+### 1. scrape_property(chemical_name, property)
    
     (1) 詢問chatGPT得到scrape_property(chemical_name)，自己擴充成可以查詢各種property。
-2. remove_brackets(text)
-3. 輸出xlsx檔
+### 2. remove_brackets(text)
+### 3. 輸出xlsx檔
 
 ## (7) 完全是自己寫的部分
 
-1. 程式架構
-2. 使用者介面，包含輸入化合物、查詢清單的組合、存成list。
-3. 用forloop將性質存入dataframe。
+### 1. 程式架構
+### 2. 使用者介面，包含輸入化合物、查詢清單的組合、存成list。
+### 3. 用forloop將性質存入dataframe。
 
 ## (8) 程式的優點和未來的可開發性
 
-優點：
+### 優點：
 1. **實用性高**：
     可以大幅減少撰寫預報時查詢藥品的時間。
 3. **客製化程度高**：
     選擇性質查詢組合(123)，能快速根據不同的實驗輸出所需的性質，此外使用者也可自訂想查詢的藥品性質，以輸出客製化的清單。
 
-可開發性：
+### 可開發性：
 1. 改成以pubChem的網頁搜尋：
     嘗試過但失敗，有可能是因為pubChem網頁的HTML結構比較複雜，需要進一步研究。
 2. 網頁的對應問題：
