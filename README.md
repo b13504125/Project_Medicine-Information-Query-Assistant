@@ -130,8 +130,9 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 ## (5) 參考資料來源
 
-我沒有參考任何程式，只有問chatgpt相關的問題，以下附上我與chatgpt的對談截圖。此外，程式檔案中我有附註此部分是chatGPT寫的、修改chatGPT的、還是完全自己寫的，也可參考README.md中(6)(7)的說明。
+我沒有參考任何程式，只有問chatgpt相關的問題，以下附上我與chatgpt的對談連結。此外，程式檔案中我有附註此部分是chatGPT寫的、修改chatGPT的、還是完全自己寫的，也可參考README.md中(6)(7)的說明。
 
+對話連結：<https://chatgpt.com/share/676ae6b7-be64-800d-9750-81d978ac57e1>
 
 ## (6) 修改自chatgpt的部分
 
