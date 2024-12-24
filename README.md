@@ -27,9 +27,13 @@ pip install openpyxl beautifulsoup4 requests pandas
 請輸入藥品的化學式(chemical formula)，若該藥品是水合物請去掉水合的部分(如SnCl2•2H20請輸入SnCl2)
 每行輸入一個化學式，輸入end結束：
 **H2O**
+
 **KNO3**
+
 **Ca(OH)2**
+
 **NaCl**
+
 **end**
 
 ### 4. 依照程式的指示輸入欲查詢的性質組合
@@ -46,8 +50,11 @@ pip install openpyxl beautifulsoup4 requests pandas
 輸入1234以選擇你想查詢的藥品性質：**4**
 請以小寫輸入想查詢的化合物性質，每行一個性質，輸入 'end' 結束：
 **iupac name**
+
 **solubility**
+
 **molar mass**
+
 **end**
 
 ### 4. 等程式執行完畢後即可打開存好的檔案
