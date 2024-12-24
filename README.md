@@ -88,9 +88,9 @@ pip install openpyxl beautifulsoup4 requests pandas
 12/5：
 
 (1) 發現利用PubChem提供的API只能查詢IUPAC name和molar mass
-   
+
     改成利用維基百科的API搜尋(失敗)
-   
+    
     改成利用網頁搜尋PubChem(失敗)
    
     改成利用網頁搜尋維基百科(成功)
