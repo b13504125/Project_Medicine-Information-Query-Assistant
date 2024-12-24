@@ -133,6 +133,7 @@ pip install openpyxl beautifulsoup4 requests pandas
 ## (6) 修改自chatgpt的部分
 
 1. scrape_property(chemical_name, property)
+   
     (1) 詢問chatGPT得到scrape_property(chemical_name)，自己擴充成可以查詢各種property。
 2. remove_brackets(text)
 3. 輸出xlsx檔
