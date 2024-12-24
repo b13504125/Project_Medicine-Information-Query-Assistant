@@ -134,7 +134,9 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 對話連結：<https://chatgpt.com/share/676ae6b7-be64-800d-9750-81d978ac57e1>
 
-## (6) 修改自chatgpt的部分
+## (6) 程式修改或增強的內容
+
+### 修改自charGPT
 
 1. scrape_property(chemical_name, property)
    
@@ -142,13 +144,13 @@ pip install openpyxl beautifulsoup4 requests pandas
 2. remove_brackets(text)
 3. 輸出xlsx檔
 
-## (7) 完全是自己寫的部分
+### 完全是自己寫的部分
 
 1. 程式架構
 2. 使用者介面，包含輸入化合物、查詢清單的組合、存成list。
 3. 用forloop將性質存入dataframe。
 
-## (8) 程式的優點和未來的可開發性
+## (7) 程式的優點和未來的可開發性
 
 ### 優點：
 1. **實用性高**：
