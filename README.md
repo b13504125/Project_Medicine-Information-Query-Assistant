@@ -86,6 +86,7 @@ pip install openpyxl beautifulsoup4 requests pandas
 12/5之前：寫好存檔程式
    
 12/5：
+
 (1) 發現利用PubChem提供的API只能查詢IUPAC name和molar mass
    
     改成利用維基百科的API搜尋(失敗)
@@ -96,34 +97,33 @@ pip install openpyxl beautifulsoup4 requests pandas
    
     修改chatGPT提供的網頁搜尋程式
    
-    (2) 寫好利用forloop將性質存入csv檔的程式
+(2) 寫好利用forloop將性質存入csv檔的程式
    
-    12/23：
+12/23：
    
-    (1) 發現℃可在vscode預覽中顯示，但在csv檔中顯示亂碼
+(1) 發現℃可在vscode預覽中顯示，但在csv檔中顯示亂碼
    
         詢問chatGPT後得知csv無法處理特殊字元，但xlsx可以
    
         改成讀入及存檔成xlsx檔
    
-    (2) 從維基百科搜尋到的資料後面會出現[]的標記
+(2) 從維基百科搜尋到的資料後面會出現[]的標記
    
         使用chatGPT提供的程式
    
-    (3) 寫好使用者介面(輸入查詢性質)的程式
+(3) 寫好使用者介面(輸入查詢性質)的程式
    
 
 ### 3. 組合程式、測試:
 
-    12/23
+12/23
 
 ### 4. 優化程式:
-
-    12/23
+12/23
    
-    (1) 改成從vscode介面輸入藥品化學式
+(1) 改成從vscode介面輸入藥品化學式
    
-    (2) 修改使用者介面(輸入查詢性質)的程式
+(2) 修改使用者介面(輸入查詢性質)的程式
    
 
 ## (5) 參考資料來源
@@ -133,17 +133,17 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 ## (6) 修改自chatgpt的部分
 
-### 1. scrape_property(chemical_name, property)
+1. scrape_property(chemical_name, property)
    
     (1) 詢問chatGPT得到scrape_property(chemical_name)，自己擴充成可以查詢各種property。
-### 2. remove_brackets(text)
-### 3. 輸出xlsx檔
+2. remove_brackets(text)
+3. 輸出xlsx檔
 
 ## (7) 完全是自己寫的部分
 
-### 1. 程式架構
-### 2. 使用者介面，包含輸入化合物、查詢清單的組合、存成list。
-### 3. 用forloop將性質存入dataframe。
+1. 程式架構
+2. 使用者介面，包含輸入化合物、查詢清單的組合、存成list。
+3. 用forloop將性質存入dataframe。
 
 ## (8) 程式的優點和未來的可開發性
 
