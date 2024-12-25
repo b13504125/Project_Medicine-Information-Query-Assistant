@@ -26,7 +26,7 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 以下為輸入的範例(粗體字為要輸入的內容)：
 
-請輸入藥品的化學式(chemical formula)，若該藥品是水合物請去掉水合的部分(如SnCl2•2H20請輸入SnCl2)
+請輸入藥品的化學式(chemical formula)，若該藥品是水合物請去掉水合的部分(如SnCl2•2H2O請輸入SnCl2)
 每行輸入一個化學式，輸入end結束：
 **H2O**
 
@@ -50,13 +50,13 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 2(m.p./b.p.):   IUPAC name + molar mass + m.p. + b.p. + appearance
 
-3(1+2): IUPAC name + molar mass + solubility in water + + m.p. + b.p. + appearance
+3(1+2): IUPAC name + molar mass + solubility in water + m.p. + b.p. + appearance
 
 4(customized)
 
-輸入1234以選擇你想查詢的藥品性質：**4**
+輸入數字(1234)以選擇你想查詢的藥品性質：**4**
 
-請以小寫輸入想查詢的化合物性質，每行一個性質，輸入 'end' 結束：
+請以小寫輸入想查詢的化合物性質，每行一個性質，輸入end結束：
 
 **iupac name**
 
