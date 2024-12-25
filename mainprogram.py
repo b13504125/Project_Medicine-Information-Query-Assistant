@@ -43,7 +43,7 @@ def remove_brackets(text):
 
 # 使用者介面(vscode) #都是自己寫的
 # 改成使用者在vscode介面輸入藥品的化學式，再存成性質的第一欄
-print("請輸入藥品的化學式(chemical formula)，若該藥品是水合物請去掉水合的部分(如SnCl2•2H20請輸入SnCl2)")
+print("請輸入藥品的化學式(chemical formula)，若該藥品是水合物請去掉水合的部分(如SnCl2•2H2O請輸入SnCl2)")
 print("每行輸入一個化學式，輸入end結束：")
 chemical_name=[]
 while True:
@@ -61,7 +61,7 @@ data = pd.DataFrame({"chemical formula": chemical_name})
 print("藥品性質查詢組合")
 print("1(solubility):\tIUPAC name + molar mass + solubility in water + appearance")
 print("2(m.p./b.p.):\tIUPAC name + molar mass + m.p. + b.p. + appearance")
-print("3(1+2):\tIUPAC name + molar mass + solubility in water + + m.p. + b.p. + appearance")
+print("3(1+2):\tIUPAC name + molar mass + solubility in water + m.p. + b.p. + appearance")
 print("4(customized)")
 
 setlist={1:["iupac name","molar mass", "solubility in water", "appearance"],
