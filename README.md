@@ -136,7 +136,7 @@ pip install openpyxl beautifulsoup4 requests pandas
 
 ## (6) 程式修改或增強的內容
 
-### 修改自charGPT
+### 修改自chatGPT
 
 1. scrape_property(chemical_name, property)
    
