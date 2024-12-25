@@ -104,7 +104,7 @@ for i in property_searched:
         data[i] = new_list  # 將新列表加入資料框
 
 
-# 移除[]並輸出為 Excel 文件 #修改自chatgpt
+# 移除[]並輸出為 Excel 文件 # 修改自chatgpt
 data_cleaned = data.applymap(remove_brackets)
 output_file = 'updated.xlsx'
 data_cleaned.to_excel(output_file, index=False, engine='openpyxl')  # 不輸出索引列
