@@ -147,8 +147,8 @@ pip install openpyxl beautifulsoup4 requests pandas
 ### 完全是自己寫的部分
 
 1. 程式架構
-2. 使用者介面，包含輸入化合物、查詢清單的組合、存成list。
-3. 用forloop將性質存入dataframe。
+2. 使用者介面，包含輸入化合物、輸入性質、存成list
+3. 用forloop將性質存入dataframe
 
 ## (7) 程式的優點和未來的可開發性
 
