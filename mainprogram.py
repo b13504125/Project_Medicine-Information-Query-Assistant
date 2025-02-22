@@ -43,7 +43,7 @@ def remove_brackets(text):
 
 # 使用者介面 # 都是自己寫的
 # 改成使用者在vscode介面輸入藥品的化學式，再存成性質的第一欄
-print("請輸入藥品的化學式(chemical formula)，若該藥品是水合物請去掉水合的部分(如SnCl2•2H2O請輸入SnCl2)")
+print("請輸入藥品的化學式(chemical formula)，若該藥品是水合物請以無水化合物表示(如SnCl2•2H2O請輸入SnCl2)")
 print("每行輸入一個化學式，輸入end結束：")
 chemical_name=[]
 while True:
